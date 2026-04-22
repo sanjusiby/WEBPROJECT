@@ -1,0 +1,196 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #28a745; /* Green background */
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px 8px 0 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+/* Profile Edit Form */
+.hidden-form {
+    display: none;
+    margin-top: 10px;
+}
+
+.hidden-form h2 {
+    color: #28a745; /* Green color */
+}
+
+.hidden-form input, .hidden-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Button Styles */
+button {
+    background: #28a745; /* Green button */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #218838; /* Darker green on hover */
+}
+
+/* Section Styles */
+section {
+    margin-top: 20px;
+}
+
+section h2 {
+    color: #28a745; /* Green color */
+}
+
+/* Internship List Styles */
+ul {
+    list-style: none; /* No bullet points */
+    padding: 0; /* No padding */
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    justify-content: space-between; /* Space out items evenly */
+}
+
+li {
+    background: #fff; /* White background for each internship */
+    padding: 15px; /* Padding inside each internship */
+    margin: 10px; /* Margin around each internship */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    flex: 1 1 28%; /* Adjusted flex basis for responsive layout */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+    transition: transform 0.2s; /* Smooth transform on hover */
+    text-align: center; /* Center text */
+}
+
+/* Internship Card Styles */
+/* Internship Card Styles */
+.internship-card {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align items */
+    text-align: center; /* Center text in card */
+}
+
+/* Logo Styles */
+.internship-logo {
+    width: 200px;
+    height: 200px;
+    object-fit: contain; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space below the logo */
+}
+
+/* Course Name Styles */
+.course-name {
+    font-weight: bold; /* Highlight course name */
+    font-size: 1.5em; /* Larger font size for course name */
+    color: #333; /* Dark text color */
+    margin-top: 10px; /* Space above the course name */
+    text-align: center; /* Center the course name */
+}
+
+
+/* Button Styles for Internship Cards */
+.action-buttons {
+    display: flex;
+    flex-direction: row; /* Arrange buttons in a row */
+    justify-content: center; /* Center the buttons */
+    gap: 10px; /* Space between buttons */
+}
+
+.apply-now-button {
+    order: 1; /* Apply now button first */
+}
+
+.view-details-button {
+    order: 2; /* View details button second */
+}
+
+.save-button {
+    order: 3; /* Save button last */
+}
+
+.apply-now-button, .view-details-button, .save-button {
+    background: #28a745; /* Green button */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+    margin: 5px; /* Margin between buttons */
+}
+
+.apply-now-button:hover, .view-details-button:hover, .save-button:hover {
+    background: #218838; /* Darker green on hover */
+}
+
+/* Details Section */
+.details {
+    display: none; /* Stay hidden by default */
+}
+
+.details p {
+    margin: 5px 0; /* Margin for paragraphs */
+    color: #555; /* Medium gray text color */
+}
+
+/* Feedback Textarea */
+textarea {
+    resize: vertical; /* Allow vertical resizing */
+}
+
+/* Toggle Button Styles */
+.toggle-button {
+    background: #ac2f2f; /* Black background for toggle */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.toggle-button:hover {
+    background: #ad3b3b; /* Darker black on hover */
+}
